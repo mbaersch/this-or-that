@@ -7,6 +7,9 @@ ___INFO___
   "securityGroups": [],
   "displayName": "This Or That",
   "description": "define multiple variables and get the first unset value as result",
+  "categories": [
+    "UTILITY"
+  ],
   "containerContexts": [
     "SERVER"
   ]
@@ -24,7 +27,6 @@ ___TEMPLATE_PARAMETERS___
       {
         "defaultValue": "",
         "displayName": "Add two or more variables. Optionally type a fallback value in the last row",
-        "categories": ["UTILITY"],
         "name": "variable",
         "type": "TEXT",
         "valueHint": "type text or use a variable. The order of rows matter.",
@@ -55,6 +57,6 @@ scenarios: []
 
 ___NOTES___
 
-Created on 22.8.2021, 18:00:17
+Created on 22.8.2021, 18:08:27
 
 
